@@ -1,5 +1,6 @@
 package SampleProject;
 
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class CreateSignupTest
@@ -21,11 +22,11 @@ public class CreateSignupTest
 	@Test
 	public void test2()
 	{
-		System.out.println("Test2 --> PraticeTest2");
+		Reporter.log("Test2 --> PraticeTest2", true);
 	}
 	@Test
 	public void test3()
 	{
-		System.out.println("test3 --> PraticeTest3");
+		Reporter.log("test3 --> PraticeTest3", true);
 	}
 }
